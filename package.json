@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "all": "./node_modules/.bin/mocha ./ --timeout=5000",
+    "other": "./node_modules/.bin/mocha ./other.js --timeout=5000",
+    "pagination": "./node_modules/.bin/mocha ./pagination.js --timeout=5000",
+    "search": "./node_modules/.bin/mocha ./search.js --timeout=5000"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "parse-link-header": "^1.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
